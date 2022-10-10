@@ -11,6 +11,7 @@ class AppStrings {
   static const String arabicCode = 'ar';
   static const String localeCode = 'locale';
   static const String mode = 'App Mode';
+  static const String new ='new';
 
 
 
