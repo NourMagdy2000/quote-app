@@ -14,7 +14,7 @@ abstract class FavQuoteRemoteDataSource {
 }
 
 class FavQuoteRemoteDataSourceImp extends FavQuoteRemoteDataSource {
-   var database;
+  var database;
   FavQuoteRemoteDataSourceImp();
   @override
   createDataBase() async {
@@ -29,7 +29,6 @@ class FavQuoteRemoteDataSourceImp extends FavQuoteRemoteDataSource {
       });
     }, onOpen: (database) {
       print('database is opened !');
-
     }).then((value) {
       database = value;
     }).catchError((error) {
